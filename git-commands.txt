@@ -1,1 +1,24 @@
-git-commands
+git-commands:
+
+git clone <repo-url>
+cd <repo-name>
+
+git checkout master
+git pull origin master
+
+git checkout -b b1
+
+# make changes
+git add .
+git commit -m "my changes"
+
+git push -u origin b1
+
+# later sync with master
+git checkout master
+git pull origin master
+
+git checkout b1
+git merge master
+
+git push
