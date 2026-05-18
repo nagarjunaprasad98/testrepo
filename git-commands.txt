@@ -22,3 +22,12 @@ git checkout b1
 git merge master
 
 git push
+
+
+
+create new branch in Git:
+-------------------------
+git checkout main
+git pull
+git checkout -b b2
+git push -u origin b2
